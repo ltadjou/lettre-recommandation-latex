@@ -5,7 +5,7 @@
 % as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{recommendation}
+\ProvidesClass{recommandation}
 
 \LoadClass[a4paper,12pt,french]{article}
 \RequirePackage[utf8x]{inputenc}
