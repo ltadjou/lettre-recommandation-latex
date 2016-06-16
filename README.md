@@ -5,7 +5,7 @@ Modèle LaTeX pour une lettre de recommandation pour un étudiant.
 
 ## Installation
 
-Copiez simplement le fichier `recommandation.cls` dans un répertoire accessible à LaTeX.
+Copiez simplement le fichier `recommandation.cls` dans un répertoire accessible à LaTeX (généralement dans `~/texmf/tex/latex/`). Le plus simple est de lancer la commande `make install`.
 
 ## Utilisation
 

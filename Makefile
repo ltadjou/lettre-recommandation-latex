@@ -14,3 +14,6 @@ sig.png:
 
 clean:
 	rm -f *.aux *.pdf *.png *.log
+
+install:
+	install -m 440 -D recommandation.cls ~/texmf/tex/latex/recommandation/recommandation.cls
