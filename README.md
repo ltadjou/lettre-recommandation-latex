@@ -16,10 +16,11 @@ Voici les commandes disponibles:
 - `\formation`: défini le nom de la formation;
 - `\logo`: le nom du fichier à utiliser comme logo de l'établissement (n'importe quel fichier utilisable par `\includegraphics` peut être utilisé)
 - `\lieux`: lieux de signature de la lettre;
-- `\responsable`: nom et prénom du responsable de la formation;
-- `\email`: adresse de courriel du responsable;
-- `\tel`: numéro de téléphone du responsable;
-- `\signature`: fichier contenant la signature du responsable;
+- `\qualite`: qualité du signataire (par défaut «Responsable de formation»)
+- `\responsable`: nom et prénom du signataire;
+- `\email`: adresse de courriel du signataire;
+- `\tel`: numéro de téléphone du signataire;
+- `\signature`: fichier contenant la signature du signataire;
 - `\periode`: descriptif de l'année;
 - `\effectif`: effectif de la promo;
 - `\niveauPromo`: défini le niveau général de la promotion. Les valeurs possibles sont:
@@ -88,6 +89,9 @@ en cours toutes ces années. Elle va amèrement nous manquer.
     This work is free. You can redistribute it and/or modify it under the
     terms of the Do What The Fuck You Want To Public License, Version 2,
     as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
+
+
+[![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png)](http://www.wtfpl.net/)
 
 ## Contributions
 

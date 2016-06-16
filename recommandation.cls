@@ -86,6 +86,9 @@
 \def\@responsable{}
 \newcommand{\responsable}[1]{\def\@responsable{#1}}
 
+\def\@qualite{Responsable de formation}
+\newcommand{\qualite}[1]{\def\@qualite{#1}}
+
 \def\@email{}
 \newcommand{\email}[1]{\def\@email{\ding{41}~\texttt{#1}}}
 
@@ -153,7 +156,7 @@
 \hrule
 \medskip
 \begin{minipage}{.48\linewidth}
-\paragraph{Responsable de formation}~\\
+\paragraph{\@qualite}~\\
 \@responsable\\
 \@tel\\
 \@email
